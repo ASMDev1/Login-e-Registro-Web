@@ -1,0 +1,12 @@
+#artext{
+    background: linear-gradient(to left,aqua,whitesmoke,aqua,whitesmoke);
+    background-clip: text;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color:transparent;
+    animation: animated 8s linear infinite;
+}
+@keyframes animated{
+    to {background-position-x: 800px;}
+}
